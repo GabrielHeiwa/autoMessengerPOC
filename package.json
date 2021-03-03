@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "prestart": "yarn tsc",
+    "prestart": "yarn insntall && yarn tsc ",
     "start": "node ./index.js"
   },
   "dependencies": {
