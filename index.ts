@@ -7,7 +7,7 @@ let pathChrome = a === 0
 const web = new Client({
     puppeteer: {
         // executablePath: pathChrome,
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        // args: ['--no-sandbox', '--disable-setuid-sandbox'],
     },
 });
 
