@@ -4,11 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "preinstall": "yarn tsc",
+    "prestart": "yarn tsc",
     "start": "node ./index.js"
   },
   "dependencies": {
-    "puppeteer": "^8.0.0",
     "whatsapp-web.js": "^1.12.5"
   },
   "devDependencies": {
