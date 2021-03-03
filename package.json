@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn install && tsnd --transpile-only --respawn --ignore-watch node_modules ./"
+    "preinstall": "yarn tsc",
+    "start": "node ./index.js"
   },
   "dependencies": {
     "puppeteer": "^8.0.0",
